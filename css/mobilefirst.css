@@ -78,6 +78,7 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
