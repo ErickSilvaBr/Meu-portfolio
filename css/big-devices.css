@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .cards img {
+        width: 350px;
+    }
+
+    form {
+        width: 500px;
+    }
+
+    .imagem, .imagem-2 {
+        background-position: bottom bottom;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    ul .material-symbols-outlined {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        list-style: none;
+    }
+
+    .menu-reesponsive {
+        display: flex;
+        gap: 3rem;
+    }
+    
+    .menu-reesponsive a {
+        text-decoration: underline;
+        color: #fff;
+    }
+    
+    .menu-reesponsive a:hover {
+        text-decoration: none;
+        color: var(--cor1);
+        transition: .2s;
+    }
+
+    .imagem, .imagem-2 {
+        background-attachment: fixed;
+    }
+    .cards img {
+        width: 450px;
+        height: 340px;
+    }
+
+    form {
+        width: 500px;
+    }
+}
+
