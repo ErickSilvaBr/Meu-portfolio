@@ -138,6 +138,8 @@ ul {
 
 .imagens img {
     width: 60px;
+    transition-timing-function: ease;
+    transition-duration: .3s;
 }
 
 .imagens img:hover {
@@ -187,6 +189,8 @@ ul {
     align-items: center;
     background-color: black;
     border-radius: 30px;
+    transition-timing-function: ease;
+    transition-duration: .3s;
 }
 
 .cards:hover {
@@ -275,6 +279,8 @@ input::placeholder {
     font-size: 1.19rem;
     font-weight: bold;
     cursor: pointer;
+    transition-timing-function: ease;
+    transition: .3s;
 }
 
 
@@ -282,18 +288,8 @@ input::placeholder {
 .btn input:hover {
     background-color: #000;
     color: #fff;
-    transition: .3s;
+
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
