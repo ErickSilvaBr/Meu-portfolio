@@ -36,6 +36,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 header {
+
     background-color: black;
     color: #718c94;
     box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.411);
